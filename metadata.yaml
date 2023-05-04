@@ -12,10 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-homepage: "https://metricaz.com/"
-documentation: "https://metricaz.com/contato/"
+homepage: "https://zoly.com.br/"
+documentation: "https://zoly.com.br/#contato"
 versions:
 # Latest version
+  - sha: e320ed72624604ae8bca466b0f1005a6370bb0a4
+    changeNotes: Correção de termos de uso
+# Older versions
   - sha: ed90a4b224c070bbfbfd954ef2052a7320eab7d7
     changeNotes: Initial Version
-# Older versions
