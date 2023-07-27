@@ -233,9 +233,9 @@ types.forEach(type => {
       if (type === 'protocol') str += '://';
       if (type === 'port') str = ':' + str;
       if (type === 'extension') str = '.' + str;
-      
+
       if (type === 'query'){
-        
+
         if (data.urlStrip1) {
           str = '?' + removeQueryParam(data.queryKeys,str);
           //return log(str);
@@ -243,11 +243,11 @@ types.forEach(type => {
             str = '?' + str;
          }
       }
-      
+
       if(type == 'path' && data.pathSlash){
         str = addSlash(str);
       }
-      
+
       if (type === 'fragment') str = '#' + str;
       urlString += str;
     }
@@ -321,5 +321,3 @@ scenarios: []
 ___NOTES___
 
 Created on 04/04/2023, 17:26:37
-
-

@@ -16,8 +16,10 @@ homepage: "https://zoly.com.br/"
 documentation: "https://zoly.com.br/#contato"
 versions:
 # Latest version
+  - sha: 19d523aafef78bb22576031bd1cd32d18fb4aac5
+    changeNotes: aceite de termos
+# Older versions
   - sha: e320ed72624604ae8bca466b0f1005a6370bb0a4
     changeNotes: Correção de termos de uso
-# Older versions
   - sha: ed90a4b224c070bbfbfd954ef2052a7320eab7d7
     changeNotes: Initial Version
